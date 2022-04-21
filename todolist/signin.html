@@ -1,0 +1,18 @@
+<html>
+<head>
+<title> Sign In </title>
+<link rel="stylesheet" href="signup.css">
+</head>
+<body background="C:\Users\Admin\Desktop\changed todolist\background1.jpg">
+   <script src="signinjs.js"> </script>
+    <div class="sign-up-form">
+        <h1>Sign in</h1>
+    <form name='sign-in' action="todolist.html"  onsubmit="return checkdata()">
+     <input type="email" id="uname" class="input-box" placeholder="your Email" required>
+     <input type="password"  id="pword" class="input-box" placeholder="your password" required>
+     <p><span> <input type="checkbox"></span>I agree to the terms  of services</p>
+   <!-- <button type="button" class ="signup-btn" onclick="checkdata()" >Sign in</button>-->
+      <input type="submit" class="sighup-btn" value="Sign in" onsubmit="checkdata()">       
+ </form>
+</body>
+</html>
